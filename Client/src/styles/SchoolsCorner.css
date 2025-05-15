@@ -1,0 +1,91 @@
+.schools-corner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.schools-corner h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.schools-corner h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.school-profile-form,
+.vacancy-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.form-group input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.school-profile-button,
+.vacancy-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.vacancy-button {
+    background-color: #28a745;
+}
+
+.vacancies-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.vacancy-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.app.dark .schools-corner h1,
+.app.dark .schools-corner h2,
+.app.dark .form-group label,
+.app.dark .vacancy-item {
+    color: #e0e0e0;
+}
+
+.app.dark .form-group input {
+    background-color: #333;
+    color: #e0e0e0;
+    border-color: #555;
+}
+
+.app.dark .school-profile-button {
+    background-color: #0056b3;
+}
+
+.app.dark .vacancy-button {
+    background-color: #1f7a38;
+}
+
+.app.dark .vacancy-item {
+    border-color: #555;
+}

@@ -1,0 +1,17 @@
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.app.dark {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}

@@ -1,0 +1,123 @@
+.login {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app.dark .login {
+    background-color: #333;
+    border-color: #555;
+    color: #fff;
+}
+
+.login h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.app.dark .login h1 {
+    color: #fff;
+}
+
+.error {
+    color: #dc3545;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.app.dark .error {
+    color: #ff6b6b;
+}
+
+.loading {
+    color: #007bff;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.app.dark .loading {
+    color: #66b0ff;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.app.dark .form-group label {
+    color: #fff;
+}
+
+.form-group input,
+.form-group select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.app.dark .form-group input,
+.app.dark .form-group select {
+    background-color: #444;
+    border-color: #666;
+    color: #fff;
+}
+
+.form-error {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.app.dark .form-error {
+    color: #ff6b6b;
+}
+
+.login-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.login-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.app.dark .login-button {
+    background-color: #66b0ff;
+}
+
+.app.dark .login-button:hover {
+    background-color: #4a9bff;
+}
+
+.app.dark .login-button:disabled {
+    background-color: #666;
+}
